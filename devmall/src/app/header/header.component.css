@@ -1,21 +1,6 @@
-:root {
-  --roxo-claro: #9C27B0;
-  --roxo-escuro: #6B2A76;
-  --branco: #FFFFFF;
-  --cinza-claro: #C3C3C3;
-  --cinza-escuro: #303030;
-}
-
 .example-spacer {
     flex: 1 1 auto;
   }
 
-.logo-dev {
-  color: red
-}
-
-.logo-mall {
-  color: var(--cinza-claro);
-}
 
   
