@@ -1,6 +1,59 @@
+
+
 .example-spacer {
     flex: 1 1 auto;
   }
 
+section {
+  display: table;
+}
 
-  
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+  padding-right: 120px;
+}
+
+.logo {
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  padding-right: 70px;
+}
+
+.search-bar {
+  background-color: transparent;
+  border-radius: 20px;
+  width: 250px;
+  height: 25px;
+  outline: none;
+
+}
+
+.button-search {
+  padding-left: 10px;
+}
+
+
+input[type="text"] {
+  background-color: rgba(0, 0, 0, 0.1); /* Cor de fundo transparente */
+  border: 2px solid #333; /* Borda sólida azul */
+  border-radius: 20px; /* Bordas arredondadas */
+  padding: 10px;
+  color: #333; /* Cor do texto */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  font-size: 16px; /* Tamanho da fonte */
+  text-align: center; /* Alinhamento do texto */
+  outline: none; /* Remove a borda ao receber foco */
+  transition: all 0.3s ease; /* Adiciona uma transição suave */
+}
+
+input[type="text"]:focus {
+  border: 2px solid #9500b3; /* Estilo da borda ao receber foco */
+  background-color: rgba(0, 123, 255, 0.1); /* Cor de fundo quando em foco */
+  box-shadow: 0 0 0px rgba(0, 123, 255, 0.4); /* Sombra ao receber foco */
+}
